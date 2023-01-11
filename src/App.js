@@ -2,12 +2,11 @@ import './App.css';
 import Expenses from './components/Expenses';
 
 
-function App() {  
+function App() {
   return (
     <div>
-      <div className='expenses'>
-         <Expenses></Expenses>
-      </div> 
+      <h2>Let's get started!</h2>
+      <Expenses></Expenses>
     </div>
   );
 }
