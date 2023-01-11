@@ -4,7 +4,7 @@ import ExpenseItem from './components/ExpenseItem';
 function App() {
 
   const expenses = [
-    { title: 'Toilet Paper', amount: 94.12, date: new Date(2023, 1, 9) },
+    { title: 'Toilet Paper', amount: 94.12,  date: new Date(2023, 1, 9) },
     { title: 'New TV', amount: 799.49, date: new Date(2023, 1, 1) },
     { title: 'Car Insurance', amount: 294.67, date: new Date(2023, 1, 4) },
     { title: 'New Desk(wooden)', amount: 450, date: new Date(2023, 1, 3) }
