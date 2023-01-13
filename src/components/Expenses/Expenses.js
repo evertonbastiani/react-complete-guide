@@ -1,7 +1,7 @@
 import Card from "../UI/Card";
 import ExpenseItem from "./ExpenseItem";
 
-function Expenses(props){  
+const Expenses = (props)=> {  
   return(
        <Card className='expenses'>
          <ExpenseItem title="Toilet Paper" amount={94.12} date = {new Date(2023, 1, 9)}></ExpenseItem>
